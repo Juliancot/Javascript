@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fortune</title>	
+	<script>
+	/*
+	0. The Fortune Teller
+	Why pay a fortune teller when you can just program your fortune yourself?
+	- Store the following into variables:
+	  number of children, partner's name, geographic location, job title.
+	- Output your fortune to the screen like so:
+	  "You will be a X in Y, and married to Z with N kids."
+	*/
+	var kids = prompt("How many children would you like to have?");
+	var pName = prompt("What is your partners name?");
+	var place = prompt("Where would you like to live?");
+	var job = prompt("What is your dream job title?");
+		alert("KAZAM! You will be a " + job + " in " + place + ", and married to " + pName + " with " + kids + " kids.");
+	</script>
+</head>
+</html>
