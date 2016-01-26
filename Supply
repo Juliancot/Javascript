@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>supply</title>	
+	<script>
+	/*
+	2. The Lifetime Supply Calculator
+	Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
+	- Store your current age into a variable.
+	- Store a maximum age into a variable.
+	- Store an estimated amount per day (as a number).
+	- Calculate how many you would eat total for the rest of your life.
+	- Output the result to the screen like so:
+	"You will need NN to last you until the ripe old age of X".
+	*/
+	var currentAge1 = prompt("What is you current age?");
+	var oldAge1 = prompt("How old do you expect to live?");
+	var snack = prompt("What is your favorit snack?");
+	var snackCount = prompt("How many " + snack + " do you eat per day?");
+	var totalSnack = ((oldAge1 - currentAge1) * 365) * snackCount;
+
+		alert("You will need " + totalSnack + " to last you until the ripe old age of " + oldAge1 + ".");
+	</script>
+</head>
+</html>
